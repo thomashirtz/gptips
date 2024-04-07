@@ -4,6 +4,23 @@
 
 When displaying code on web pages, ensuring readability is key. One common issue is horizontal overflow, especially with long lines of code. This guide presents CSS solutions to wrap code blocks for better readability, applicable to any web page and specifically tailored for LaTeX code blocks.
 
+This can be useful if latex of readme code is generated with ChatGPT, it will give you an output like this one:
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur erat ut volutpat rhoncus. Nullam sagittis tortor non justo venenatis, nec tincidunt diam elementum. Sed efficitur nulla sem, pulvinar ullamcorper nisi imperdiet sed. Praesent molestie euismod lectus. Cras ultrices neque diam, nec pretium lectus rhoncus ut. Curabitur sit amet erat velit. Nullam nulla purus, ultrices vitae egestas id, viverra sit amet magna. Donec ut risus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eget dui non enim tincidunt rutrum et euismod diam. Sed non dui quam. Nulla ac blandit nunc. Curabitur at ante massa. Nunc vestibulum facilisis imperdiet. Proin rhoncus faucibus fringilla. 
+```
+
+However, thanks to the stylesheet provided in this page, it is possible to wrap the text in order to not need to scroll (when using the stylesheet, the length of the lines will adapt to the window width):
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consectetur erat ut volutpat rhoncus. Nullam sagittis 
+tortor non justo venenatis, nec tincidunt diam elementum. Sed efficitur nulla sem, pulvinar ullamcorper nisi imperdiet 
+sed. Praesent molestie euismod lectus. Cras ultrices neque diam, nec pretium lectus rhoncus ut. Curabitur sit amet 
+erat velit. Nullam nulla purus, ultrices vitae egestas id, viverra sit amet magna. Donec ut risus orci. Interdum et 
+malesuada fames ac ante ipsum primis in faucibus. Fusce eget dui non enim tincidunt rutrum et euismod diam. Sed non 
+dui quam. Nulla ac blandit nunc. Curabitur at ante massa. Nunc vestibulum facilisis imperdiet. Proin rhoncus faucibus 
+fringilla. 
+```
+
+
 ### General Solution for All Code Blocks
 
 To make any code block wrap and avoid horizontal overflow, apply the following CSS:
